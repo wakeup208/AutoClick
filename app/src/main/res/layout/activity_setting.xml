@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:appbrain="http://schemas.android.com/apk/lib/com.appbrain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/setting_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/pointer_alpha"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20pt"
+                    android:layout_marginRight="20pt"
+                    android:clickable="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/autoclick_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#cccccc"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="@string/auto_click_speed"
+                                android:textColor="#ffffff"
+                                android:textSize="10pt" />
+
+                            <Button
+                                android:id="@+id/swipespeed_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="20dp"
+                                android:background="#cccccc"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="@string/auto_swipe_speed"
+                                android:textColor="#ffffff"
+                                android:textSize="10pt" />
+
+                            <Button
+                                android:id="@+id/save_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="20dp"
+                                android:background="#cccccc"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="@string/title_activity_save"
+                                android:textColor="#ffffff"
+                                android:textSize="10pt" />
+
+                            <Button
+                                android:id="@+id/instruction_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="20dp"
+                                android:background="#cccccc"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="@string/instruction"
+                                android:textColor="#ffffff"
+                                android:textSize="10pt" />
+
+                            <TextView
+                                android:id="@+id/buy_info"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="20dp"
+                                android:gravity="center"
+                                android:text="$ Premium Version Info. $"
+                                android:textColor="#ffbb00"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/buy_info2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Up to 48 Multi Targets\10Up to 48 Swipe Targets\10Up to 10 Save Slots"
+                                android:textSize="15dp" />
+
+                            <Button
+                                android:id="@+id/buy_btn"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="40dp"
+                                android:background="#aaaaff"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="Advanced Version"
+                                android:textColor="#ffffff"
+                                android:textSize="10pt" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                --&gt;
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">AutoClick</string>
+    <string name="about_rate">RATE IT</string>
+
+    <string name="access">Accessibility Services</string>
+
+    <string name="access_description">When you start the automatic ticker accessibility service, the automatic clicker will send a click/touch on your behalf. You can disable this feature at any time, but you must enable it to run the automatic clicker.</string>
+
+    <string name="accessibility_service_description">Automatic Clicker</string>
+
+    <string name="accessibility_service_name">Automatic Clicker</string>
+
+    <string name="already_purchased">Already Purchased</string>
+    <string name="auto_click_speed">Auto Click Speed</string>
+
+    <string name="auto_swipe_speed">Auto Swipe Speed</string>
+
+    <string name="before_start">Before you begin</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="clicks_per_second">Clicks per second</string>
+    <string name="confirm">Approval</string>
+
+    <string name="confirm2">Start</string>
+
+    <string name="default_click_per_second">Default : 30 clicks per second</string>
+
+    <string name="default_duration_seconds">Default : Infinite seconds</string>
+
+    <string name="delay_after_click">Delay after click</string>
+
+    <string name="delay_before_click">Delay before click</string>
+
+    <string name="delay_initialize">Initialize target</string>
+
+    <string name="delay_initialize_all">Initialize ALL target</string>
+
+    <string name="delay_setting">Delay Setting</string>
+
+    <string name="description">You need to give the device additional rights to the auto \10 clicker before starting the auto touch/click.</string>
+
+    <string name="digits_caption">To try recognition of digits: say something like \"one two three four five\".</string>
+
+    <string name="duration_seconds">Duration seconds</string>
+
+    <string name="forecast_caption">To try recognition of a weather forecast like \"sunny spells on Wednesday\".</string>
+
+    <string name="instruction">Instruction</string>
+
+    <string name="kws_caption">To start demonstration say \"oh mighty computer\".</string>
+
+    <string name="menu_caption">Say \"target\", \"swipe\" to choose the grammar, language model or phonetic decoder example.</string>
+
+    <string name="ok">OK</string>
+
+    <string name="overlay">Overlays permission</string>
+
+    <string name="overlay_description">By granting this permission, you can control the automatic clicker to create an overlay to use.</string>
+
+    <string name="phone_caption">To try phonetic recognition say anything.</string>
+
+    <string name="please_try_again_later">Please try again later</string>
+
+    <string name="purchase_cancelled">Purchase Cancelled</string>
+
+    <string name="purchase_yet">Did you purchase \'Pro version \'? You need to purchase a Pro version for more targeting and saving your settings. You can purchase from Settings.</string>
+
+    <string name="reset">RESET</string>
+
+    <string name="search_menu_title">Search</string>
+
+    <string name="share">Share</string>
+
+    <string name="start">START</string>
+
+    <string name="status_bar_notification_info_overflow">999+</string>
+
+    <string name="stop">STOP</string>
+
+    <string name="swipe_duration">Each time the swipe duration</string>
+
+    <string name="test_panel">TEST PANEL</string>
+
+    <string name="title_activity_preference">Preference</string>
+
+    <string name="title_activity_save">Save Configuration</string>
+
+    <string name="voice_recog">Voice Recognition</string>
+
+    <string name="would_you_like_to_rate">Would you like to rate this app on the Play Store? :)</string>
+</resources>
