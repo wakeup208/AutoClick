@@ -44,10 +44,7 @@ public class MainActivity extends AppCompatActivity {
         this.Btn_Overlay = (Button) findViewById(R.id.allow_overlay);
         this.Btn_Overlay.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                StringBuilder sb = new StringBuilder();
-                sb.append("package:");
-                sb.append(MainActivity.this.getPackageName());
-                MainActivity.this.startActivity(new Intent("android.settings.action.MANAGE_OVERLAY_PERMISSION", Uri.parse(sb.toString())));
+                MainActivity.this.startActivity(new Intent("android.settings.action.MANAGE_OVERLAY_PERMISSION", Uri.parse("package:" + MainActivity.this.getPackageName())));
             }
         });
         this.Btn_Access = (Button) findViewById(R.id.allow_access);
@@ -93,5 +90,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1234) {
+            this.Lyt_Overlay.setVisibility(View.GONE);
+            if (AutoClicker.instance != null) {
+                startActivity(new Intent(this, AllSettings.class));
+                startService(new Intent(this, FloatingViewService.class));
+                finish();
+            }
+        }
     }
 }

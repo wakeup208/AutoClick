@@ -13,7 +13,7 @@ public class ScreenReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         if (intent.getAction().equals("android.intent.action.SCREEN_OFF")) {
-            Log.d("Screen", " Off");
+            Log.d("abcd", " Off");
             if (FloatingViewService.auto_click) {
                 FloatingViewService.touch_first = true;
                 FloatingViewService.auto_click = false;
